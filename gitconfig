@@ -27,6 +27,3 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
-[user]
-  name = Wladimir Braguini Domingues
-  email = wladimir.braguini@gmail.com
