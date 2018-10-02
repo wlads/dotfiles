@@ -1,10 +1,13 @@
 # Virtualenv/VirtualenvWrapper
-export WORKON_HOME=~/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-source /usr/local/bin/virtualenvwrapper.sh
+# export WORKON_HOME=~/.virtualenvs
+# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+# source /usr/local/bin/virtualenvwrapper.sh
+#
+# export ANDROID_SDK_ROOT=/Users/wladimir/Library/Android/sdk
+# export ANDROID_HOME=/Users/wladimir/Library/Android/sdk
+#
+# export GOPATH=/Users/wladimir/Projects/gocode
+# export PATH=$PATH:$GOPATH/bin:~/Projects/Scripts/Util
 
-export ANDROID_SDK_ROOT=/Users/wladimir/Library/Android/sdk
-export ANDROID_HOME=/Users/wladimir/Library/Android/sdk
-
-export GOPATH=/Users/wladimir/Projects/gocode
-export PATH=$PATH:$GOPATH/bin:~/Projects/Scripts/Util
+export PATH="$HOME/.bin:$PATH"
+source /Users/wladimir/.asdf/asdf.sh
