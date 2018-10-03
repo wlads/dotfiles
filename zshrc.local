@@ -5,9 +5,16 @@
 #
 # export ANDROID_SDK_ROOT=/Users/wladimir/Library/Android/sdk
 # export ANDROID_HOME=/Users/wladimir/Library/Android/sdk
-#
-# export GOPATH=/Users/wladimir/Projects/gocode
-# export PATH=$PATH:$GOPATH/bin:~/Projects/Scripts/Util
+
+# GoLang
+export GOPATH=/Users/wladimir/Projects/gocode
+export PATH=$PATH:$GOPATH/bin
+
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# Scripts
+export PATH=$PATH:~/Projects/Scripts/Util
 
 export PATH="$HOME/.bin:$PATH"
 source /Users/wladimir/.asdf/asdf.sh
