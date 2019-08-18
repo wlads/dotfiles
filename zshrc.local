@@ -6,6 +6,11 @@
 # export ANDROID_SDK_ROOT=/Users/wladimir/Library/Android/sdk
 # export ANDROID_HOME=/Users/wladimir/Library/Android/sdk
 
+# BB Warsaw
+# https://macmagazine.uol.com.br/2017/11/18/o-modulo-de-seguranca-de-bancos-pode-estar-detonando-o-seu-mac-saiba-como-so-ativa-lo-quando-necessario-neste-tutorial/
+alias bb_enable="sudo launchctl load -F /Users/wladimir/Projects/Scripts/BB/LaunchDaemons_com.diebold.warsaw.plist"
+alias bb_disable="sudo launchctl unload -F /Users/wladimir/Projects/Scripts/BB/LaunchDaemons_com.diebold.warsaw.plist"
+
 # GoLang
 export GOPATH=/Users/wladimir/Projects/gocode
 export PATH=$PATH:$GOPATH/bin
